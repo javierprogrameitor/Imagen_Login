@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    color: white;
+    background-image: url('../img/background.jpeg');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+
+    color: white;
+    font-size: 20px;
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    padding-inline: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    align-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+nav {
+    display: inline-flex;
+}
+
+nav a {
+    color: white;
+    /* Texto en color blanco */
+    display: flex;
+    text-decoration: none;
+    margin-right: 50px;
+
+}
+
+.background {
+
+    width: 1200px;
+    /* Ancho del div */
+    height: 600px;
+    /* Alto del div */
+    margin-top: 70px;
+    background-image: url('../img/background.jpeg');
+    /* Ruta a tu imagen */
+    background-size: cover;
+    /* Controla cómo se ajusta la imagen al tamaño del div */
+    background-position: center;
+    /* Alinea la imagen al centro del div */
+}
+
+.home {
+    margin-top: 170px;
+    display: flex;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap
+}
+
+.logo {
+    color: white;
+    font-size: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    ;
+}
+
+.login {
+    padding-left: 200px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+input.input1 {
+    width: 100%;
+    padding: 10px 0;
+    /* Ajusta el espacio vertical según tus preferencias */
+    border: none;
+    /* Elimina el borde */
+    border-bottom: 1px solid #ccc;
+    /* Agrega un borde inferior */
+    font-size: 16px;
+    background: none;
+    /* Elimina el fondo */
+}
+
+h2 {
+    font-size: 70px;
+    margin-left: 35px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+pre {
+    font-size: 15px;
+}
+
+.icon i {
+    margin-right: 10px;
+    /* Agrega un margen a la derecha de cada elemento i para separarlos */
+    font-size: 24px;
+
+}
